@@ -75,7 +75,7 @@ $ brew install cmake
 $ mkdir build
 $ cd build
 $ cmake ..
-$ cmake -build .
+$ cmake --build .
 ```
 
 This should generate the `mygame` main executable and the `libgamecode.so` shared library in the `build` directory.
